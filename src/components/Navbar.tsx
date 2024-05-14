@@ -8,6 +8,7 @@ function Navbar() {
   return (
     <AppBar position="static" color="inherit">
       <Toolbar>
+      <Box sx={{ flexGrow: 1 }} />
         <img src="/static/images/img/imagen 1.png" alt="Logo" />
 
         <Box sx={{ flexGrow: 1 }} />
@@ -26,6 +27,7 @@ function Navbar() {
         <Button variant="contained" color="primary" style={{borderRadius: '50px'}}>
           Reservar
         </Button>
+        <Box sx={{ flexGrow: 1 }} />
       </Toolbar>
     </AppBar>
   );

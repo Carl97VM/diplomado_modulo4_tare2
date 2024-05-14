@@ -7,39 +7,39 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 
 function Footer() {
     return (
-        <Grid container direction="column" alignItems="center" style={{ paddingTop: '10px'}}>
-            <Grid item xs={12}>
+        <Grid container direction="column" alignItems="center" style={{ paddingTop: '10px'}} bgcolor="lightgrey">
+            <Grid item xs={12} paddingTop={3}>
                 <Typography variant="h5" fontWeight={'bold'} sx={{ mb: 4 }}>
                     Síguenos en redes sociales
                 </Typography>
             </Grid>
             <Grid item container xs={12} justifyContent="center" spacing={1}>
-                <Grid item xs={1} style={{ textAlign: 'center' }}>
+                <Grid item style={{ textAlign: 'center' }}>
                     <WhatsAppIcon></WhatsAppIcon>
                     <Typography variant="body1">
                         WhatsApp
                     </Typography>
                 </Grid>
-                <Grid item xs={1} style={{ textAlign: 'center' }}>
+                <Grid item style={{ textAlign: 'center' }}>
                     <FacebookIcon></FacebookIcon>
                     <Typography variant="body1">
                         Facebook
                     </Typography>
                 </Grid>
-                <Grid item xs={1} style={{ textAlign: 'center' }}>
+                <Grid item style={{ textAlign: 'center' }}>
                     <YouTubeIcon></YouTubeIcon>
                     <Typography variant="body1">
                         YouTube
                     </Typography>
                 </Grid>
-                <Grid item xs={1} style={{ textAlign: 'center' }}>
+                <Grid item style={{ textAlign: 'center' }}>
                     <TelegramIcon></TelegramIcon>
                     <Typography variant="body1">
                         Telegram
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid item xs={12} fontWeight={'bold'} sx={{ mb: 4 }}>
+            <Grid item xs={12} fontWeight={'bold'} sx={{ mb: 4 }} paddingTop={5}>
                 <Typography variant="body1">
                     Política de privacidad
                 </Typography>
